@@ -1,0 +1,97 @@
+#app {
+  height: 100%;
+}
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #000000;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+.swiperr {
+  width: 90%;
+  height: 80%;
+
+  position: relative;
+  bottom: 200px;
+  z-index: 111;
+}
+
+.swiperr-slide {
+  text-align: center;
+  font-size: 18px;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 200px;
+  
+}
+
+.swiperr-slide img {
+  display: block;
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+}
+
+.anime-name {
+  background: #000000;
+  padding-bottom: 200px;
+  color: white;
+}
+
+.anime-name p {
+  position: absolute;
+  top: 430px;
+  text-align: justify;
+  right: 70px; 
+  font-size: 1.5em;
+}
+
+
+
+
+
+
+
+
+
+/* mobile config */
+@media (max-width: 430px) {
+  .swiperr {
+    width: 90%;
+    height: 80%;
+
+    position: relative;
+    bottom: 40px;
+    z-index: 111;
+  }
+
+  .swiperr-slide {
+    text-align: center;
+    font-size: 18px;
+    background: black;
+
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiperr-slide img {
+    display: block;
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+  }
+}

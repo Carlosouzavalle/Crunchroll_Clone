@@ -1,0 +1,33 @@
+.buttonPlayWrapper {
+    width: 50%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid white;
+    position: relative;
+    align-items: center;
+    background: #f47521;
+}
+
+.buttonPlayWrapper:hover {
+    background: #fff;
+}
+
+
+/* config mobile */
+@media (max-width: 430px) {
+    .buttonPlayWrapper {
+        width: 50%;
+        height: 20px;
+        display: flex;
+        justify-content: center;
+        border: 1px solid white;
+        position: relative;
+        align-items: center;
+        background: #f47521;
+    }
+    
+    .buttonPlayWrapper:hover {
+        background: #fff;
+    }
+}

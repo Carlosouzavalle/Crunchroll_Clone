@@ -1,0 +1,189 @@
+.header-logo {
+    width: 13%;
+    margin-top: 28px;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-around;
+    background: #23252b;
+}
+
+
+.itens-container ol {
+    display: flex;
+    justify-content: space-between;
+    font-size: 2em;
+    list-style: none;
+}
+
+.itens-container {
+    width: 30%;
+}
+
+ol a {
+    text-decoration: none;
+    color: white;
+}
+
+.tryfree {
+    display: flex;
+    align-items: center;
+}
+
+.tryfree-text {
+    color: #fab818;
+}
+
+.premium-text {
+    color: white;
+}
+
+.crown {
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: 2px;
+    margin-right: 5px;
+}
+
+.crown-icon {
+    width: 30px;
+    height: 100px;
+    color: #fab818;;
+}
+
+.navigation-wrapper {
+    display: flex;
+    justify-content: space-around;
+    width: 10%;
+    align-items: center;
+}
+
+.navigation-buttons {
+    height: 100px;
+    width: 30px;
+    color: white;
+}
+
+
+ @media (max-width: 1199px) {
+    .itens-container ol {
+        display: flex;
+        justify-content: space-between;
+        font-size: 2em;
+        list-style: none;
+    }
+
+    .itens-container {
+        width: 45%;
+    }
+
+    .header-logo {
+        width: 17%;
+        margin-top: 30px;
+    }
+
+    .tryfree-text {
+        display: none;
+    }
+    
+    .premium-text {
+        display: none;
+    }
+    
+    .crown {
+        display: none;
+    }
+
+    .navigation-buttons {
+        display: none;
+    }
+
+}
+
+
+/* config mobile */
+@media (max-width: 390px) {
+    .header-logo {
+        width: 20%;
+        margin: 10px;
+    }    
+
+    .itens-container ol {
+        display: flex;
+        justify-content: space-between;
+        margin: 4.2%;
+        font-size: 0.8em;
+        list-style: none;
+    }
+
+    .itens-container {
+        width: 60%;
+    }
+
+    .tryfree {
+        display: flex;
+        align-items: center;
+    }
+    
+    .tryfree-text {
+        display: none;
+    }
+    
+    .premium-text {
+        display: none;
+    }
+    
+    .crown {
+        display: none;
+    }
+
+    .navigation-buttons {
+        display: none;
+    }
+}
+
+
+
+@media (max-width: 430px) {
+    .header-logo {
+        width: 20%;
+        margin: 10px;
+    }    
+
+    .itens-container ol {
+        display: flex;
+        justify-content: space-between;
+        margin: 4.2%;
+        font-size: 0.8em;
+        list-style: none;
+    }
+
+    .itens-container {
+        width: 60%;
+    }
+
+    .tryfree {
+        display: flex;
+        align-items: center;
+    }
+    
+    .tryfree-text {
+        display: none;
+    }
+    
+    .premium-text {
+        display: none;
+    }
+    
+    .crown {
+        display: none;
+    }
+
+    .navigation-buttons {
+        display: none;
+    }
+}
+
+

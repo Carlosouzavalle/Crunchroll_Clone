@@ -1,0 +1,38 @@
+.BookmarkCOntainer {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    border: 1px solid white;
+    position: relative;
+    left: 52%;
+    bottom: 40px;
+    height: 40px;
+    align-items: center;
+    background: #f47521;
+}
+
+.BookmarkCOntainer:hover {
+    background: #fff;
+}
+
+
+
+/* config mobile  */
+@media (max-width: 430px) {
+    .BookmarkCOntainer {
+        width: 10%;
+        display: flex;
+        justify-content: center;
+        border: 1px solid white;
+        position: relative;
+        left: 52%;
+        bottom: 20px;
+        height: 20px;
+        align-items: center;
+        background: #f47521;
+    }
+    
+    .BookmarkCOntainer:hover {
+        background: #fff;
+    }
+}
