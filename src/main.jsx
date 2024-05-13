@@ -11,7 +11,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Header />
     <Banner />
     <CarroselAnimes />
-    <FreeToWatchCarrousel />
+    <FreeToWatchCarrousel  />
     <MetalRogue />
   </React.StrictMode>,
 )
