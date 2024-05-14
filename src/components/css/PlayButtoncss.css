@@ -1,7 +1,8 @@
 .buttonPlayWrapper {
-    width: 50%;
+    width: 40%;
     height: 40px;
     display: flex;
+    left: 22%;
     justify-content: center;
     border: 1px solid white;
     position: relative;
