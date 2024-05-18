@@ -1,9 +1,9 @@
-.container-novidade {
+.container-novidade2 {
     display: flex;
     color: white;
     justify-content: center;
     position: relative;
-    top: 50px;
+    top: 100px;
     left: 5%;
 }
 
@@ -36,14 +36,17 @@
     width: 45%;
     position: relative;
     right: 10px;
+
 }
 
 .buttonPlay {
     width: 45%;
     height: 100%;
+    background: #f47521;
 }
 
 .buttonSave {
     width: 45%;
     height: 100%;
+    background: #f47521;
 }

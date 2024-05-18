@@ -1,15 +1,14 @@
 import konosuba2 from '../assets/img/konosuba2.jpg'
-import '../components/css/novidade.css'
+import '../components/css/novidade2.css'
 import { FaPlay, FaBookmark } from "react-icons/fa";
 
 
-const Novidade = () => {
+const Novidade2 = () => {
     return (
-        <div className='container-novidade'>
+        <div className='container-novidade2'>
 
 
             <img className='container-img' src={konosuba2} alt="" />
-
 
             <div className='container-name-description'>
                 <h1>KONOSUBA God's blessing on this wonderful world!</h1>
@@ -36,4 +35,4 @@ const Novidade = () => {
     )
 }
 
-export default Novidade
+export default Novidade2
