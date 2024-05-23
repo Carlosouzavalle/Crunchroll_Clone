@@ -3,11 +3,12 @@
     flex-direction: column;
     position: absolute;
     height: 60%;
-    width: 30%;
+    width: 40%;
     top: 6%;
     left: 8%;
     color: white;
-    font-size: 2em;
+    font-size: 1.3em;
+    border: 1px solid;
 }
 
 
