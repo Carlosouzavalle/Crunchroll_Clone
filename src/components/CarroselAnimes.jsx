@@ -35,13 +35,13 @@ export default function CarroselAnimes() {
         modules={[FreeMode, Pagination]}
         className="swiperr mySwiper"
       >
-        <SwiperSlide className='swiperr-slide, anime-name '> <img  src={godgames} alt="" /> <p>God Game</p> </SwiperSlide>
-        <SwiperSlide className='swiperr-slide, anime-name '> <img  src={kaiju8} alt="" /> <p>Kaiju no 8</p> </SwiperSlide>
-        <SwiperSlide className='swiperr-slide, anime-name '> <img  src={prince} alt="" /> <p>7 Prince</p> </SwiperSlide>
-        <SwiperSlide className='swiperr-slide, anime-name '> <img  src={hero} alt="" /> <p>The Banished Former Hero</p> </SwiperSlide>
-        <SwiperSlide className='swiperr-slide, anime-name '> <img  src={chillin} alt="" /> <p>Chillin'g in another world</p> </SwiperSlide>
-        <SwiperSlide className='swiperr-slide, anime-name '> <img  src={salad} alt="" /> <p>Bow sald</p> </SwiperSlide>
-        <SwiperSlide className='swiperr-slide, anime-name '> <img  src={studio} alt="" /> <p>Studio apartment</p> </SwiperSlide>
+        <SwiperSlide className='swiperr-slide anime-name '> <img  src={godgames} alt="" /> <p>God Game</p> </SwiperSlide>
+        <SwiperSlide className='swiperr-slide anime-name '> <img  src={kaiju8} alt="" /> <p>Kaiju no 8</p> </SwiperSlide>
+        <SwiperSlide className='swiperr-slide anime-name '> <img  src={prince} alt="" /> <p>7 Prince</p> </SwiperSlide>
+        <SwiperSlide className='swiperr-slide anime-name '> <img  src={hero} alt="" /> <p>The Banished Former Hero</p> </SwiperSlide>
+        <SwiperSlide className='swiperr-slide anime-name '> <img  src={chillin} alt="" /> <p>Chillin'g in another world</p> </SwiperSlide>
+        <SwiperSlide className='swiperr-slide anime-name '> <img  src={salad} alt="" /> <p>Bow sald</p> </SwiperSlide>
+        <SwiperSlide className='swiperr-slide anime-name '> <img  src={studio} alt="" /> <p>Studio apartment</p> </SwiperSlide>
      </Swiper>
     </>
   );

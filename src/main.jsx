@@ -12,10 +12,10 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Header />
     <Banner />
-    <CarroselAnimes />
-    <FreeToWatchCarrousel  />
+    {/* <CarroselAnimes /> */}
+    {/* <FreeToWatchCarrousel  />
     <MetalRogue />
     <Novidade />
-    <Novidade2 />
+    <Novidade2 /> */}
   </React.StrictMode>,
 )

@@ -8,13 +8,13 @@
     font-size: 1em;
     color: white;
     font-size: 1em;
-   
+
 }
 
 .containerClassRoom .container-img {
     position: relative;
     left: 5%;
-    
+
     width: 90%;
 }
 
@@ -22,7 +22,37 @@
     height: 112px;
 }
 
+/* buttons */
+.playButton {
+    height: 40px;
+    width: 35px;
+}
 
+.play {
+    background: #f47521;
+    height: 60px;
+    width: 180px;
+    position: relative;
+    right: 30%;
+}
+
+.saveButton {
+    height: 40px;
+    width: 35px;
+}
+
+.save {
+    background: #f47521;
+    height: 60px;
+    width: 60px;
+    position: relative;
+    right: 25%;
+}
+
+
+
+
+/* config mobile */
 @media (max-width: 800px) {
     .containerClassRoom {
         display: flex;
@@ -38,46 +68,7 @@
 }
 
 
-/* config para mobile */
-@media (max-width: 390px) {
-    .containerClassRoom {
-        display: flex;
-        flex-direction: column;
-        position: absolute;
-        height: 80%;
-        width: 20%;
-        left: 5%;
-        color: white;
-        font-size: 0.3em;
-    }
-}
 
-@media (max-width: 360px) {
-    .containerClassRoom {
-        display: flex;
-        flex-direction: column;
-        position: absolute;
-        height: 80%;
-        width: 35%;
-        left: 5%;
-        color: white;
-        font-size: 0.3em;
-    }
-
-}
-
-@media (max-width: 344px) {
-    .containerClassRoom {
-        display: flex;
-        flex-direction: column;
-        position: absolute;
-        height: 80%;
-        width: 35%;
-        left: 5%;
-        color: white;
-        font-size: 0.3em;
-    }
-}
 
 @media (max-width: 430px) {
     .containerClassRoom {
@@ -85,11 +76,46 @@
         flex-direction: column;
         position: absolute;
         height: 80%;
-        width: 40%;
+        width: 30%;
         left: 5%;
         color: white;
         font-size: 0.5em;
         bottom: 4%;
         text-align: justify;
+        border: 1px solid white;
+    }
+
+
+
+    /* buttons */
+    .divButton {
+        position: relative;
+        left: 18%;
+    }
+
+    .playButton {
+        height: 10px;
+        width: 35px;
+    }
+
+    .play {
+        background: #f47521;
+        height: 20px;
+        width: 70px;
+        position: relative;
+        right: 8%;
+    }
+
+    .saveButton {
+        height: 10px;
+        width: 10px;
+    }
+
+    .save {
+        background: #f47521;
+        height: 20px;
+        width: 30px;
+        position: relative;
+        right: 5%;
     }
 }

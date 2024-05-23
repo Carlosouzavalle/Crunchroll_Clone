@@ -34,7 +34,6 @@ body {
   justify-content: center;
   align-items: center;
   padding-bottom: 200px;
-  
 }
 
 .swiperr-slide img {
@@ -46,8 +45,9 @@ body {
 
 .anime-name {
   background: #000000;
-  padding-bottom: 200px;
+  padding-bottom: 150px;
   color: white;
+  border: 1px solid white;
 }
 
 .anime-name p {
@@ -63,15 +63,11 @@ body {
 
 
 
-
-
-
 /* mobile config */
 @media (max-width: 430px) {
   .swiperr {
     width: 90%;
     height: 80%;
-
     position: relative;
     bottom: 40px;
     z-index: 111;
@@ -81,7 +77,6 @@ body {
     text-align: center;
     font-size: 18px;
     background: black;
-
     /* Center slide text vertically */
     display: flex;
     justify-content: center;
@@ -94,4 +89,20 @@ body {
     height: 80%;
     object-fit: cover;
   }
+
+  .anime-name {
+    background: #000000;
+    padding-bottom: 50px;
+    color: white;
+    border: 1px solid;
+  }
+  
+  .anime-name p {
+    position: absolute;
+    top: 430px;
+    text-align: justify;
+    right: 70px; 
+    font-size: 0.5em;
+  }
+  
 }
