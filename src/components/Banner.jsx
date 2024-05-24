@@ -41,9 +41,9 @@ export default function Banner() {
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
       >
-        {/* <SwiperSlide><img src={thestrongest } alt="" /> < TheStrongestName/>   </SwiperSlide>
-        <SwiperSlide><img src={banishedHero} alt="" /> <BanishedHeroName/>  </SwiperSlide> */}
-        <SwiperSlide><img src={classRoom} alt="" />  <ClassRoomName/>  </SwiperSlide>
+        {/* <SwiperSlide><img src={thestrongest } alt="" /> < TheStrongestName/>   </SwiperSlide> */}
+        <SwiperSlide><img src={banishedHero} alt="" /> <BanishedHeroName/>  </SwiperSlide>
+        {/* <SwiperSlide><img src={classRoom} alt="" />  <ClassRoomName/>  </SwiperSlide> */}
       </Swiper>
       
     </>

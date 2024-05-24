@@ -11,16 +11,6 @@
 
 }
 
-.containerClassRoom .container-img {
-    position: relative;
-    left: 5%;
-
-    width: 90%;
-}
-
-.containerClassRoom .container-img img {
-    height: 112px;
-}
 
 /* buttons */
 .playButton {
@@ -66,7 +56,6 @@
     }
 
 }
-
 
 
 
