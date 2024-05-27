@@ -10,6 +10,34 @@
     font-size: 1.3em;
 }
 
+/* buttons */
+.playButton3 {
+    height: 40px;
+    width: 35px;
+}
+
+.play3 {
+    background: #f47521;
+    height: 60px;
+    width: 180px;
+    position: relative;
+    right: 32%;
+}
+
+.saveButton3 {
+    height: 40px;
+    width: 35px;
+}
+
+.save3 {
+    background: #f47521;
+    height: 60px;
+    width: 60px;
+    position: relative;
+    right: 28%;
+}
+
+
 
 @media (max-width: 600px) {
     .containerTheStrongest {
@@ -26,47 +54,6 @@
 
 
 /* config para mobile */
-@media (max-width:390px) {
-    .containerTheStrongest {
-        display: flex;
-        flex-direction: column;
-        position: absolute;
-        height: 80%;
-        width: 35%;
-        left: 5%;
-        color: white;
-        font-size: 1em;
-    }
-
-
-}
-
-@media (max-width: 360px) {
-    .containerTheStrongest {
-        display: flex;
-        flex-direction: column;
-        position: absolute;
-        height: 80%;
-        width: 35%;
-        left: 5%;
-        color: white;
-        font-size: 0.5em;
-    }
-}
-
-@media (max-width: 344px) {
-    .containerTheStrongest {
-        display: flex;
-        flex-direction: column;
-        position: absolute;
-        height: 80%;
-        width: 35%;
-        left: 5%;
-        color: white;
-        font-size: 0.5em;
-    }
-}
-
 @media (max-width: 430px) {
     .containerTheStrongest {
         display: flex;
@@ -78,6 +65,33 @@
         color: white;
         font-size: 0.5em;
         text-align: justify;
+    }
+
+    /* buttons */
+    .playButton3 {
+        height: 15px;
+        width: 20px;
+    }
+
+    .play3 {
+        background: #f47521;
+        height: 20px;
+        width: 60px;
+        position: relative;
+        left: 2%;
+    }
+
+    .saveButton3 {
+        height: 15px;
+        width: 20px;
+    }
+
+    .save3 {
+        background: #f47521;
+        height: 20px;
+        width: 35px;
+        position: relative;
+        left: 10%;
     }
 
 }

@@ -15,10 +15,14 @@
     justify-content: space-between;
     font-size: 2em;
     list-style: none;
+    position: relative;
+    right: 45%;
+    top: 4%;
 }
 
 .itens-container {
-    width: 30%;
+    width: 25%;
+    
 }
 
 ol a {

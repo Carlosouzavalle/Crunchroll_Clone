@@ -1,0 +1,83 @@
+/* src/components/css/dropdown.css */
+.dropdown-container {
+    position: relative;
+}
+
+.dropdown-menu {
+    display: block;
+    position: absolute;
+    background-color: #141519;
+    min-width: 450px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    /* Ajuste o valor se necessário */
+    margin-top: 33px;
+    border-radius: 5px;
+    padding: 0;
+    
+}
+
+.dropdown-item {
+    padding: 12px 16px;
+    cursor: pointer;
+    list-style: none;
+    color: white;
+}
+
+.dropdown-item:hover {
+    background-color: #f1f1f1;
+}
+
+.dropArrow {
+    position: relative;
+    top: 6px;
+}
+
+.dropdown-menu1 {
+    display: block;
+    position: absolute;
+    background-color: #141519;
+    min-width: 350px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    /* Ajuste o valor se necessário */
+    margin-top: 31px;
+    border-radius: 5px;
+    padding: 0;
+    border-right: 1px solid #f1f1f1;
+}
+
+.dropdown-menu-broser {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    position: absolute;
+    left: 77.4%;
+
+    background-color: #141519;
+    min-width: 950px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    /* Ajuste o valor se necessário */
+    margin-top: 32px;
+    border-radius: 5px;
+    padding-top: 90px;
+    height: 252px;
+}
+
+.Genres {
+    position: absolute;
+    bottom:  78%;
+    left: 5.3%;
+    color: white;
+}
+
+.dropdown-item1 {
+    padding: 2px 16px;
+    cursor: pointer;
+    list-style: none;
+    color: white;
+}
+
+.dropdown-item1:hover {
+    background-color: #f1f1f1;
+}
