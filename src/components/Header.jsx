@@ -72,7 +72,7 @@ const Header = () => {
 
                         <li><a href="">Games</a></li>
                         <li className="dropdown-container">
-                            <a href="#" onClick={toggleDropdown}>News <IoMdArrowDropdown className='dropArrow' /> </a>
+                            <a href="#" onClick={toggleDropdown}> News <IoMdArrowDropdown className='dropArrow' /> </a>
                             {isDropdownOpen && (
                                 <ul className="dropdown-menu">
                                     <li className="dropdown-item">All news</li>
@@ -83,20 +83,21 @@ const Header = () => {
                         </li>
                     </ol>
                 </div>
-                <div className="tryfree">
-                    <div className="crown">
-                        <FaCrown className="crown-icon" />
-                    </div>
-                    <div className="texts-wrapper">
-                        <div className="tryfree-text">
-                            <p>TRY FREE</p>
-                        </div>
-                        <div className="premium-text">
-                            <p>PREMIUM</p>
-                        </div>
-                    </div>
-                </div>
+
                 <div className="navigation-wrapper">
+                    <div className="tryfree">
+                        <div className="crown">
+                            <FaCrown className="crown-icon" />
+                        </div>
+                        <div className="texts-wrapper">
+                            <div className="tryfree-text">
+                                <p>TRY FREE</p>
+                            </div>
+                            <div className="premium-text">
+                                <p>PREMIUM</p>
+                            </div>
+                        </div>
+                    </div>
                     <CiSearch className="navigation-buttons" />
                     <CiBookmark className="navigation-buttons" />
                     <CiUser className="navigation-buttons" />

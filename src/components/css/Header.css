@@ -16,12 +16,15 @@
     font-size: 2em;
     list-style: none;
     position: relative;
-    right: 45%;
-    top: 4%;
+    border: 1px solid white;
+    align-items: center;
 }
 
 .itens-container {
-    width: 25%;
+    width: 30%;
+    position: relative;
+    right: 7%;
+    top: 4%;
     
 }
 
@@ -59,8 +62,8 @@ ol a {
 
 .navigation-wrapper {
     display: flex;
-    justify-content: space-around;
-    width: 10%;
+    justify-content: space-between;
+    width: 20%;
     align-items: center;
 }
 
@@ -71,40 +74,65 @@ ol a {
 }
 
 
- @media (max-width: 1199px) {
-    .itens-container ol {
+ @media (max-width: 1300px) {
+    .header-wrapper {
         display: flex;
-        justify-content: space-between;
-        font-size: 2em;
-        list-style: none;
+        justify-content: space-around;
+        background: #23252b;
     }
 
     .itens-container {
-        width: 45%;
+        display: none;
     }
-
     .header-logo {
-        width: 17%;
+        width: 20%;
         margin-top: 30px;
     }
 
-    .tryfree-text {
-        display: none;
-    }
-    
-    .premium-text {
-        display: none;
-    }
-    
-    .crown {
-        display: none;
-    }
-
-    .navigation-buttons {
-        display: none;
+    .navigation-wrapper {
+        display: flex;
+        justify-content: space-around;
+        width: 30%;
+        align-items: center;
+        position: relative;
+        left: 10%;
     }
 
 }
+
+
+
+@media (max-width: 900px) {
+    .header-wrapper {
+        display: flex;
+        justify-content: space-around;
+        background: #23252b;
+    }
+
+    .itens-container {
+        display: none;
+    }
+    .header-logo {
+        width: 22%;
+        margin-top: 30px;
+    }
+
+    .navigation-wrapper {
+        display: flex;
+        justify-content: space-around;
+        width: 40%;
+        align-items: center;
+        position: relative;
+        left: 10%;
+    }
+
+}
+
+
+
+
+
+
 
 
 /* config mobile */
